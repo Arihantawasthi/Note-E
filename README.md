@@ -1,2 +1,2 @@
 # Note-E
-This is the web for taking the notes.
+A simple web app for taking notes.
