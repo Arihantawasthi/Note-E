@@ -1,0 +1,11 @@
+{% extends "layout.html" %}
+{% block heading %}
+  <h1>Note-E:- </h1>
+{% endblock %}
+
+{% block body %}
+  <ul>
+    <li><a href="{{ url_for('index') }}">Take a note.</a></li>
+    <li><a href="{{ url_for('index') }}">Make a Todo list.</a></li>
+  </ul>
+{% endblock %}
