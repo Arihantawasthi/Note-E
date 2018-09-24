@@ -19,3 +19,7 @@ def index():
         session["notes"].append(note)
 
     return render_template('index.html', notes=session["notes"])
+
+@app.route('/todo-app', methods=["POST", "GET"])
+def todo():
+    return render_template('todo.html')
